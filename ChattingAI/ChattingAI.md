@@ -10,7 +10,15 @@
     - GUI   : c++
     - DB    : SQL Lite
 
+- ### Install API
+    - transformers
+    - torch
+    - accelerate
 
+    - torchvision
+    - torchaudio --index-url https://download.pytorch.org/whl/cu121
+    - accelerate
+    - transformers
 ---
 ## AI 동작 흐름
 
@@ -41,3 +49,11 @@
 - 사용자 입력 + AI 응답 DB 저장
 - 임베딩 벡터 생성 후 저장
 - messages 리스트에 추가 (20턴 넘으면 오래된 것 제거)
+
+---
+
+
+
+
+
+
